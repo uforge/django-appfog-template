@@ -1,0 +1,33 @@
+{% load compressed %}
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>
+        {% block title %}{% endblock %}
+    </title>
+    <link href="{{ STATIC_URL }}main/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    {% compressed_css 'style' %}
+    {% compressed_css 'screen' %}
+    {% compressed_css 'print' %}
+    <!--[if IE]>
+    {% compressed_css 'ie' %}
+    <script src="{{ STATIC_URL }}main/js/html5.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+
+<div class="container">
+    {% block contents %}
+    {% endblock %}
+    <footer id="pagefooter">
+        <div id="credits">
+            <a href="http://www.uforge.it">uForge</a>  | <a href="/admin">Amministra</a>
+        </div>
+    </footer>
+</div>
+{% compressed_js 'assets' %}
+{% compressed_js 'application' %}
+</body>
+</html>
