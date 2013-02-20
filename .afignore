@@ -1,0 +1,9 @@
+pizzahub/local_settings.py
+pizzahub/local_settings.pyc
+.idea/
+*.db
+*.pyc
+*.git
+*.git*
+*.coffee
+*.scss
