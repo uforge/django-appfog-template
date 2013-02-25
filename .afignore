@@ -1,5 +1,5 @@
-pizzahub/local_settings.py
-pizzahub/local_settings.pyc
+{{ project_name }}/local_settings.py
+{{ project_name }}/local_settings.pyc
 .idea/
 *.db
 *.pyc
