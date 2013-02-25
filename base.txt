@@ -12,4 +12,3 @@ eco
 django-pipeline
 django-pipeline-compass
 django-pipeline-eco
-django-debug-toolbar

@@ -1,0 +1,5 @@
+--requirement=requirements.txt
+
+django-debug-toolbar
+lettuce
+splinter

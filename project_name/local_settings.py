@@ -11,8 +11,11 @@ if DEBUG:
     INTERNAL_IPS = ('127.0.0.1',)
     # Show emails in the console during developement.
     EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
-    # We use the debug toolbar only if DEBUG is True
-    INSTALLED_APPS = INSTALLED_APPS + ('debug_toolbar',)
+    # These apps will be installed only if we are working in a local environement
+    INSTALLED_APPS = INSTALLED_APPS + (
+        'debug_toolbar',
+        'lettuce.django',
+    )
     MIDDLEWARE_CLASSES += ['debug_toolbar.middleware.DebugToolbarMiddleware', ]
     DEBUG_TOOLBAR_PANELS = (
         'debug_toolbar.panels.version.VersionDebugPanel',

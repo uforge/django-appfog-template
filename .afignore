@@ -7,3 +7,4 @@ pizzahub/local_settings.pyc
 *.git*
 *.coffee
 *.scss
+requirements_dev.txt

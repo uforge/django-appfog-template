@@ -1,6 +1,3 @@
-# project.txt is a pip requirements file which describes the distributions
-# required by your project to run.
-
 --requirement=base.txt
 
 droid-django-dajaxice
