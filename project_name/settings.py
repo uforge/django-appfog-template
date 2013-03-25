@@ -169,6 +169,8 @@ INSTALLED_APPS = (
     # 'django.contrib.admindocs',
 )
 
+ALLOWED_HOSTS = '*'
+
 STATICFILES_STORAGE = 'pipeline.storage.PipelineStorage'
 
 PIPELINE_CSS = {
