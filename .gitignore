@@ -1,0 +1,16 @@
+# Compiled source #
+###################
+*.pyc
+*.db
+
+# Excluding the compiled static folders #
+###################
+*/*/.sass-cache
+*/*/static/*/js/app/*.js
+*/*/static/*/js/app/*/*.js
+*/*/static/*/js/app/*/*/*.js
+
+# Excluding the pycharm folder #
+###################
+.idea
+
