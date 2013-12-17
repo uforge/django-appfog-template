@@ -3,7 +3,7 @@
 # project specific not listed here use project.txt. You can, of course, update
 # versions of distributions here if needed.
 
---find-links http://hen.droidware.it/packages/
+--find-links http://hen.uforge.it/packages/
 
 Django>=1.4
 South
